@@ -1,5 +1,5 @@
 import React from "react";
-import { FaixaVertical } from "./FaixaVertical";
+import { FaixaVertical } from "../atoms/FaixaVertical";
 
 export function FaixaEmail() {
   return (

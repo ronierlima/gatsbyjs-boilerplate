@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaixaVertical } from "./FaixaVertical";
-import { SocialIcon } from "./SocialIcon";
+import { FaixaVertical } from "../atoms/FaixaVertical";
+import { SocialIcon } from "../atoms/SocialIcon";
 
 export function FaixaSocial() {
   return (

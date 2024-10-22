@@ -1,6 +1,6 @@
 import * as React from "react";
 import { FaMoon, FaSun } from "react-icons/fa"; // Importa os ícones do react-icons
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../../context/ThemeContext";
 
 export function BotaoTrocaTema() {
   const { temaEscuro, toggleTema } = useTheme();
