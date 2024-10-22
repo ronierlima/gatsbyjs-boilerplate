@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby + Vercel`,
-    siteUrl: `https://gatsby-template.vercel.app/`,
+    title: `Ronier Lima`,
+    siteUrl: `https://ronierlima.dev/`,
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-postcss"],
 };
