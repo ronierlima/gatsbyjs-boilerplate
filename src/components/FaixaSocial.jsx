@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaixaVertical } from "./FaixaVertical";
 import { SocialIcon } from "./SocialIcon";
 
 export function FaixaSocial() {
@@ -15,7 +16,7 @@ export function FaixaSocial() {
         href="https://www.linkedin.com/in/ronierlima/"
       />
 
-      <div className="w-px h-24 bg-slate-400"></div>
+      <FaixaVertical />
     </div>
   );
 }

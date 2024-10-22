@@ -17,12 +17,12 @@ export function LogoRL() {
           textAnchor="middle"
           fontSize="32"
           fill="teal"
+          className="transition-colors dark:fill-yellow-500"
           fontFamily="SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace"
           fontWeight="bold"
         >
           &lt;
         </text>
-        {/* Letras RL */}
         <text
           x="55"
           y="50%"
@@ -30,13 +30,13 @@ export function LogoRL() {
           textAnchor="middle"
           fontSize="32"
           fill="teal"
-          className="transition-colors duration-300 ease-out group-hover:fill-teal-300 group-hover:font-bold group-hover:shadow-glow"
+          className="transition-colors dark:fill-yellow-500 group-hover:fill-teal-400 dark:group-hover:fill-yellow-400"
           fontFamily="SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace"
           fontWeight="bold"
         >
           rl
         </text>
-        {/* Tag HTML - Símbolo de fechamento /> */}
+
         <text
           x="100"
           y="50%"
@@ -44,6 +44,7 @@ export function LogoRL() {
           textAnchor="middle"
           fontSize="32"
           fill="teal"
+          className="transition-colors dark:fill-yellow-500"
           fontFamily="SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace"
           fontWeight="bold"
         >

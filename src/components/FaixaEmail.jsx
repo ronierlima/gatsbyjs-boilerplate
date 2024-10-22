@@ -1,12 +1,18 @@
 import React from "react";
+import { FaixaVertical } from "./FaixaVertical";
 
 export function FaixaEmail() {
   return (
     <div className="fixed right-10 bottom-0 hidden md:block">
-      <div className="vertical-email text-slate-400 text-sm tracking-widest">
-        <span style={{ writingMode: "vertical-rl" }}>eu@ronierlima.dev</span>
-      </div>
-      <div className="w-px h-24 bg-slate-400 mx-auto mt-6"></div>
+      <a href="mailto:eu@ronierlima.dev">
+        <span
+          className="cursor-pointer vertical-email text-gray-700 dark:text-gray-300 text-sm tracking-widest transition duration-300 ease-out hover:text-teal-500 dark:hover:text-yellow-300 transform hover:-translate-y-1"
+          style={{ writingMode: "vertical-rl" }}
+        >
+          eu@ronierlima.dev
+        </span>
+      </a>
+      <FaixaVertical />
     </div>
   );
 }
